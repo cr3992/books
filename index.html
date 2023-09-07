@@ -17,6 +17,13 @@
         body{
             background-image: url('bg.png');
         }
+        #content {
+    max-height: calc(100vh - 60px); /* Adjust the height as needed */
+    overflow-y: auto;
+}
+        #content::-webkit-scrollbar {  
+             display: none;  /* Safari and Chrome */ 
+         }
     </style>
 </head>
 <body>
@@ -195,10 +202,7 @@
         </div>
             
     </div>
-
-        <script>
-
-        </script>
+
     
 </body>
 </html>
